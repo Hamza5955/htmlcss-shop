@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px; 
+}
+.main {
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.principale{
+    width: 80%;
+    margin: 0 auto;
+}
+.box{
+    display: inline-block;
+}
+.vestito{
+    position: relative;
+    width: 200px;
+    height: 290px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.vestito:hover .img{
+    display: none;
+}
+
+.vestito:hover .img-hover{
+    display: inline;
+}
+
+.vestito .img{
+    display: inline;
+     width: 100%;
+     height: auto;
+     position: relative;
+}
+
+.img-hover{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none;
+}
+.sbarrato{
+    color: black;
+    text-decoration: line-through;
+}
+
+.icona{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    vertical-align: auto;
+    text-align: center;
+    background-color: white;
+}
+.scrite{
+    color: white;
+    padding: 5px;
+}
+.sconto{
+    background-color: red;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    padding: 5px;
+}
+.Sostenibilita{
+    background-color: green;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    padding: 5px;
+    text-align: center;
+}
+.last{
+    background-color: green;
+    bottom: 10px;
+    left: 0;
+}
+.text .name{
+    font-weight: bold;  
+}
+.price-org{
+    color: black;
+}
+.text .price{
+    color: red;
+}
